@@ -1,9 +1,6 @@
 <template>
   <div>
-    <myheader />
-    <myheader />
-    <myheader />
-    <myheader />
+    <Header />
     <p v-if="msg.length > 0">{{ msg }}</p>
     <p v-else>no text</p>
     <input type="text" v-model="msg" />
@@ -12,11 +9,11 @@
 </template>
 
 <script>
-import myheader from "./components/myheader";
+import Header from "./components/Header";
 
 export default {
   components: {
-    myheader
+    Header
   },
   data() {
     return {
@@ -30,3 +27,10 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+/* GoogleFonts */
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&family=Noto+Serif+JP&display=swap");
+/* Bluma */
+@import url("https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css");
+</style>
