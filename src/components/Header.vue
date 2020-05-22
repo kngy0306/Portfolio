@@ -1,15 +1,13 @@
 <template>
   <div class="top">
-    <h1>Kona's Portfolio</h1>
-    <p id="glitch" class="classsess">this is sth message.</p>
+    <h1 id="glitch">Kona's Portfolio</h1>
+    <!-- <p id="glitch">this is sth message.</p> -->
   </div>
 </template>
 
 <script>
 let rand = 1000;
 const timer = () => {
-  const d = document.getElementById("glitch").classList;
-  console.log(d);
   rand = Math.floor(Math.random() * (6000 - 500) + 500);
   document.getElementById("glitch").classList.toggle("is-active");
 
@@ -27,15 +25,15 @@ export default {
 .top {
   height: 100vh;
   // background-color: #7e1083;
-  background-color: #111;
   text-align: center;
 
   h1 {
-    font-family: "Balsamiq Sans", cursive;
+    //font-family: "Balsamiq Sans", cursive;
+    font-family: "Noto Serif JP", serif;
     padding-top: 10%;
     color: #5bbee5;
     font-size: 6em;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
   }
 
   p {
