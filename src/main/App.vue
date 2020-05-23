@@ -1,7 +1,7 @@
 <template>
   <div>
     <Header />
-    <Intro />
+    <About />
     <Works />
     <Footer />
 
@@ -13,15 +13,15 @@
 </template>
 
 <script>
-import Header from "@/components/Header";
-import Intro from "@/components/Intro";
-import Works from "@/components/Works";
-import Footer from "@/components/Footer";
+import Header from "@/main/Header";
+import About from "@/main/About";
+import Works from "@/main/Works";
+import Footer from "@/main/Footer";
 
 export default {
   components: {
     Header,
-    Intro,
+    About,
     Works,
     Footer
   },
@@ -45,6 +45,9 @@ export default {
 @import url("https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css");
 
 body {
+  box-sizing: border-box;
   background-color: #222;
+  color: #fff;
+  font-family: "Noto Serif JP", serif;
 }
 </style>

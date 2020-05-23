@@ -7,10 +7,6 @@
 <style lang="scss" scoped>
 div {
   height: 30vh;
-  background-color: #888;
-
-  h1 {
-    color: #fff;
-  }
+  background-color: #fff;
 }
 </style>

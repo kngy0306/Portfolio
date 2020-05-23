@@ -31,7 +31,8 @@ export default {
     //font-family: "Balsamiq Sans", cursive;
     font-family: "Noto Serif JP", serif;
     padding-top: 10%;
-    color: #5bbee5;
+    //color: #5bbee5;
+    color: #eee;
     font-size: 6em;
     letter-spacing: 2px;
   }
