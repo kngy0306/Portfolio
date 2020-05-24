@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="has-background-black-bis">
     <Header />
     <About />
     <Works />
@@ -46,7 +46,6 @@ export default {
 
 body {
   box-sizing: border-box;
-  background-color: #222;
   color: #fff;
   font-family: "Noto Serif JP", serif;
 }
