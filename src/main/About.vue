@@ -6,7 +6,7 @@
       <br />
       <p>北海道に住んでいる大学4年です。</p>
       <p>工学部で情報を学んでいます。現在は主にWebの技術について学んでいます。</p>
-      <img class="image" src="../assets/img/Saroma.jpg" alt="sceen" />
+      <img class="image" src="../assets/img/Saroma-min.jpg" alt="sceen" />
     </div>
   </div>
 </template>
