@@ -18,7 +18,6 @@ export default {
 div {
   text-align: center;
   padding: 4%;
-  height: 100vh;
   background-color: #444;
 }
 </style>

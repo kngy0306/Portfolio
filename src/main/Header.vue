@@ -1,14 +1,13 @@
 <template>
   <div class="top">
     <h1 id="glitch">Kona's Portfolio</h1>
-    <!-- <p id="glitch">this is sth message.</p> -->
   </div>
 </template>
 
 <script>
 let rand = 1000;
 const timer = () => {
-  rand = Math.floor(Math.random() * (6000 - 500) + 500);
+  rand = Math.floor(Math.random() * (4000 - 500) + 500);
   document.getElementById("glitch").classList.toggle("is-active");
 
   setTimeout(timer, rand);
@@ -35,12 +34,10 @@ export default {
     color: #eee;
     font-size: 6em;
     letter-spacing: 2px;
-  }
 
-  p {
-    font-family: "Noto Serif JP", serif;
-    font-size: 2.5em;
-    color: #eee;
+    @media (max-width: 930px) {
+      font-size: 2em;
+    }
   }
 
   .is-active {
