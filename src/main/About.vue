@@ -6,7 +6,17 @@
       <br />
       <p>北海道に住んでいる大学4年です。</p>
       <p>工学部で情報を学んでいます。現在は主にWebの技術について学んでいます。</p>
-      <img class="image" src="../assets/img/Saroma-min.jpg" alt="sceen" />
+      <div class="columns is-desktop">
+        <div class="column">
+          <img class="image" src="../assets/img/kitami2.jpg" alt="sceen" />
+        </div>
+        <div class="column">
+          <img class="image" src="../assets/img/winter-min.jpg" alt="sceen" />
+        </div>
+        <div class="column">
+          <img class="image saroma" src="../assets/img/Saroma-min.jpg" alt="sceen" />
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -30,8 +40,10 @@ div {
     font-size: 3em;
   }
 
-  .image {
-    padding-top: 50px;
+  .saroma {
+    @media (max-width: 600px) {
+      display: none;
+    }
   }
 }
 </style>

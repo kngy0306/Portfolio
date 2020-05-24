@@ -27,8 +27,8 @@ export default {
         {
           title: "Portfolio",
           content: "このポートフォリオです。",
-          lang: "Vue.js",
-          version: "3.7.2"
+          lang: "Vue-cli",
+          version: "4.3.1"
         }
       ]
     };

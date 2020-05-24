@@ -34,5 +34,9 @@ export default {
 <style lang="scss" scoped>
 .work-title {
   font-size: 2em;
+
+  @media (max-width: 600px) {
+    font-size: 1.1em;
+  }
 }
 </style>
