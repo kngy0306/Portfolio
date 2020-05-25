@@ -1,10 +1,15 @@
 <template>
   <div class="top">
     <h1 id="glitch">Kona's Portfolio</h1>
+    <div class="stage">
+      <VueAnimation />
+    </div>
   </div>
 </template>
 
 <script>
+import VueAnimation from "@/components/VueAnimation";
+
 let rand = 1000;
 const timer = () => {
   rand = Math.floor(Math.random() * (4000 - 500) + 500);
@@ -14,6 +19,9 @@ const timer = () => {
 };
 
 export default {
+  components: {
+    VueAnimation
+  },
   mounted() {
     timer();
   }
@@ -22,7 +30,7 @@ export default {
 
 <style lang="scss" scoped>
 .top {
-  height: 100vh;
+  //height: 100vh;
   // background-color: #7e1083;
   text-align: center;
 

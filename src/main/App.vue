@@ -45,6 +45,7 @@ export default {
 @import url("https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css");
 
 body {
+  overflow: hidden;
   box-sizing: border-box;
   color: #fff;
   font-family: "Noto Serif JP", serif;
