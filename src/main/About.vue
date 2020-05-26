@@ -33,8 +33,8 @@ export default {
 
 <style lang="scss" scoped>
 div {
-  background-color: #333;
-  padding: 4%;
+  //background-color: #333;
+  padding: 4% 4% 0 4%;
 
   h1 {
     font-size: 3em;

@@ -30,15 +30,12 @@ export default {
 
 <style lang="scss" scoped>
 .top {
-  //height: 100vh;
-  // background-color: #7e1083;
   text-align: center;
 
   h1 {
-    //font-family: "Balsamiq Sans", cursive;
     font-family: "Noto Serif JP", serif;
     padding-top: 10%;
-    //color: #5bbee5;
+    //color: ;
     color: #eee;
     font-size: 6em;
     letter-spacing: 2px;

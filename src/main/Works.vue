@@ -39,6 +39,6 @@ export default {
 <style lang="scss" scoped>
 div {
   text-align: center;
-  padding: 4%;
+  padding: 4% 4% 0 4%;
 }
 </style>

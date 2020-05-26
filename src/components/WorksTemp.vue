@@ -1,14 +1,9 @@
 <template>
   <div>
     <article class="box media has-background-grey-dark main-content">
-      <!-- <figure class="media-left">
-        <p class="image is-128x128">
-          <img src="../assets/img/blog.png" />
-        </p>
-      </figure>-->
       <div class="media-content">
         <div class="content">
-          <p class="work-title has-text-white">{{ item.title }}</p>
+          <p class="work-title">{{ item.title }}</p>
           <br />
           <p class="has-text-white">{{ item.content }}</p>
           <br />
@@ -32,11 +27,14 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.work-title {
-  font-size: 2em;
+.box {
+  .work-title {
+    font-size: 2em;
+    color: #5bbee5;
 
-  @media (max-width: 600px) {
-    font-size: 1.1em;
+    @media (max-width: 600px) {
+      font-size: 1.1em;
+    }
   }
 }
 </style>
