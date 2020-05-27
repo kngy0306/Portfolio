@@ -18,8 +18,8 @@ export default {
     Header,
     About,
     Works,
-    Footer
-  }
+    Footer,
+  },
 };
 </script>
 
