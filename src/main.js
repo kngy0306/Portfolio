@@ -2,13 +2,13 @@ import Vue from "vue";
 import App from "./main/App.vue";
 //fontawesome
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { faUserSecret } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
+import { fab } from "@fortawesome/free-brands-svg-icons"; // twitterのfaはbrandsだから
 
-library.add(faUserSecret);
+library.add(fab);
 
 Vue.component("font-awesome-icon", FontAwesomeIcon);
-//end
+//fa end
 
 Vue.config.productionTip = false;
 
