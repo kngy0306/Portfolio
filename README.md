@@ -13,7 +13,7 @@
 
 1. Vue.js の機能を色々使いたい
 1. SCSS を活用したい
-1. 様々な js ライブラリを用いて華やかにしたい
+1. 様々な js ライブラリを用いて華やかにしたい(wow.js、iType、glide...)
 
 ## Project setup
 
