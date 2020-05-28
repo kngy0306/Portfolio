@@ -35,13 +35,12 @@ export default {
   h1 {
     font-family: "Noto Serif JP", serif;
     padding-top: 10%;
-    //color: ;
     color: #eee;
     font-size: 6em;
     letter-spacing: 2px;
 
     @media (max-width: 930px) {
-      font-size: 2em;
+      font-size: 4em;
     }
   }
 

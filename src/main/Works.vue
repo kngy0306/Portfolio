@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container is-fluid">
     <Title title="Works" />
     <WorksTemp v-for="work in works" :key="work.title" :item="work" />
   </div>
@@ -39,8 +39,14 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "@/assets/style/padding.scss";
+
 div {
   text-align: center;
-  padding: 4% 4% 0 4%;
+  padding-bottom: $padding-bottom_pc;
+
+  @media (max-width: 600px) {
+    padding-bottom: $padding-bottom_mobile;
+  }
 }
 </style>
