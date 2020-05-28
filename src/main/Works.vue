@@ -18,6 +18,7 @@ export default {
     return {
       works: [
         {
+          link: "https://qiita.com/xxPowderxx/items/e9726b8b8a114655d796",
           title: "ScrapingApp(Nogizaka46Blog)",
           content:
             "乃木坂46ブログの画像をスクレイピングし、画像のみをフォルダへ保存します。",

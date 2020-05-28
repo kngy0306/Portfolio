@@ -3,7 +3,9 @@
     <article class="box media has-background-grey-dark main-content">
       <div class="media-content">
         <div class="content">
-          <p class="work-title">{{ item.title }}</p>
+          <a :href="item.link">
+            <p class="work-title">{{ item.title }}</p>
+          </a>
           <br />
           <p class="has-text-white">{{ item.content }}</p>
           <br />
@@ -28,12 +30,17 @@ export default {
 
 <style lang="scss" scoped>
 .box {
-  .work-title {
-    font-size: 2em;
-    color: #5bbee5;
+  a {
+    .work-title {
+      font-size: 2em;
+      color: #5bbee5;
 
-    @media (max-width: 600px) {
-      font-size: 1.1em;
+      @media (max-width: 600px) {
+        font-size: 1.1em;
+      }
+      &:hover {
+        color: #00dd22;
+      }
     }
   }
 }
