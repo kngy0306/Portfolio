@@ -1,7 +1,9 @@
 <template>
   <div class="container is-fluid">
     <Title title="Works" />
-    <WorksTemp v-for="work in works" :key="work.title" :item="work" />
+    <div>
+      <WorksTemp v-for="work in works" :key="work.title" :item="work" />
+    </div>
   </div>
 </template>
 

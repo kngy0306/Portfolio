@@ -5,7 +5,6 @@
         <div class="media-content">
           <div class="content">
             <p class="work-title">{{ item.title }}</p>
-
             <br />
             <p class="has-text-white">{{ item.content }}</p>
             <br />
@@ -30,18 +29,20 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-a {
-  .work-title {
-    font-size: 2em;
-    color: #5bbee5;
-
-    @media (max-width: 600px) {
-      font-size: 1.1em;
-    }
-  }
-  &:hover {
+div {
+  a {
     .work-title {
-      color: #8fff;
+      font-size: 2em;
+      color: #5bbee5;
+
+      @media (max-width: 600px) {
+        font-size: 1.1em;
+      }
+    }
+    &:hover {
+      .work-title {
+        color: #8fff;
+      }
     }
   }
 }

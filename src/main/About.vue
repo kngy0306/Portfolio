@@ -1,7 +1,7 @@
 <template>
   <div class="container is-fluid">
     <Title title="About" />
-    <div class="about container">
+    <div class="about">
       <p class="title has-text-white">kona</p>
       <div class="about-text">
         <p>北海道に住んでいる大学4年です。</p>
