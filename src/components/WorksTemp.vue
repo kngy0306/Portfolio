@@ -1,19 +1,20 @@
 <template>
   <div>
-    <article class="box media has-background-grey-dark main-content">
-      <div class="media-content">
-        <div class="content">
-          <a :href="item.link">
+    <a :href="item.link">
+      <article class="box media has-background-grey-dark main-content">
+        <div class="media-content">
+          <div class="content">
             <p class="work-title">{{ item.title }}</p>
-          </a>
-          <br />
-          <p class="has-text-white">{{ item.content }}</p>
-          <br />
-          <span class="lang tag is-primary">{{ item.lang }}</span>
-          <span class="version tag is-dark">ver- {{ item.version }}</span>
+
+            <br />
+            <p class="has-text-white">{{ item.content }}</p>
+            <br />
+            <span class="lang tag is-primary">{{ item.lang }}</span>
+            <span class="version tag is-dark">ver- {{ item.version }}</span>
+          </div>
         </div>
-      </div>
-    </article>
+      </article>
+    </a>
   </div>
 </template>
 
@@ -29,18 +30,18 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.box {
-  a {
-    .work-title {
-      font-size: 2em;
-      color: #5bbee5;
+a {
+  .work-title {
+    font-size: 2em;
+    color: #5bbee5;
 
-      @media (max-width: 600px) {
-        font-size: 1.1em;
-      }
-      &:hover {
-        color: #00dd22;
-      }
+    @media (max-width: 600px) {
+      font-size: 1.1em;
+    }
+  }
+  &:hover {
+    .work-title {
+      color: #00dd22;
     }
   }
 }

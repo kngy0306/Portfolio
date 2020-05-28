@@ -26,6 +26,7 @@ export default {
           version: "3.7.2"
         },
         {
+          link: "#glitch",
           title: "Portfolio",
           content: "このポートフォリオです。",
           lang: "Vue-cli",
