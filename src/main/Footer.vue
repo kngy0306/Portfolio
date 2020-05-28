@@ -24,11 +24,23 @@ div {
 
   .sns {
     padding-bottom: 50px;
+
+    .twitter-event {
+      display: none;
+    }
+
+    .github-event {
+      display: none;
+    }
   }
   .icon {
     margin: 0 30px;
     width: 50px;
     height: 50px;
+
+    &:hover {
+      cursor: pointer;
+    }
   }
 }
 </style>
