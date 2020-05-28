@@ -41,7 +41,7 @@ a {
   }
   &:hover {
     .work-title {
-      color: #00dd22;
+      color: #8fff;
     }
   }
 }

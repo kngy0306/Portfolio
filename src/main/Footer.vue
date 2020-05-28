@@ -1,8 +1,10 @@
 <template>
   <div>
     <Title title=" " />
-    <h1>Footerのページです</h1>
-    <font-awesome-icon :icon="['fab', 'twitter-square']" />
+    <div class="sns">
+      <font-awesome-icon :icon="['fab', 'twitter-square']" class="icon" />
+      <font-awesome-icon :icon="['fab', 'github-square']" class="icon" />
+    </div>
   </div>
 </template>
 
@@ -16,8 +18,18 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 div {
-  padding: 4% 4% 0 4%;
+  padding: 50px 50px 0 50px;
+  text-align: center;
+
+  .sns {
+    padding-bottom: 50px;
+  }
+  .icon {
+    margin: 0 30px 30px 0;
+    width: 50px;
+    height: 50px;
+  }
 }
 </style>
