@@ -31,7 +31,7 @@ export default {
           link: "#glitch",
           title: "Portfolio",
           content: "このポートフォリオです。",
-          lang: "Vue-cli",
+          lang: "Vue.js",
           version: "4.3.1"
         }
       ]

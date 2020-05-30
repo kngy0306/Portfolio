@@ -5,7 +5,7 @@
       <p class="title has-text-white">kona</p>
       <div class="about-text">
         <p>北海道に住んでいる大学4年です。</p>
-        <p>工学部で情報を学んでいます。現在は主にWebの技術について学んでいます。</p>
+        <p>工学部で情報を学んでいます。現在は主にウェブの技術について学んでいます。</p>
       </div>
 
       <div class="columns is-mobile">
