@@ -22,6 +22,10 @@ export default {
     color: #eee;
     border-bottom: solid 2px #7e1083;
     line-height: initial;
+
+    @media (max-width: 600px) {
+      font-size: 1.5em;
+    }
   }
 }
 </style>

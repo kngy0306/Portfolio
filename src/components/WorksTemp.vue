@@ -1,19 +1,19 @@
 <template>
   <div>
-    <a :href="item.link">
-      <article class="box media has-background-grey-dark main-content">
-        <div class="media-content">
-          <div class="content">
-            <p class="work-title">{{ item.title }}</p>
-            <br />
-            <p class="has-text-white">{{ item.content }}</p>
-            <br />
-            <span class="lang tag is-primary">{{ item.lang }}</span>
-            <span class="version tag is-dark">ver- {{ item.version }}</span>
-          </div>
+    <!-- <a :href="item.link"> -->
+    <article class="box media has-background-grey-dark main-content">
+      <div class="media-content">
+        <div class="content">
+          <p class="work-title">{{ item.title }}</p>
+          <br />
+          <p class="has-text-white">{{ item.content }}</p>
+          <br />
+          <span class="lang tag is-primary">{{ item.lang }}</span>
+          <span class="version tag is-dark">ver- {{ item.version }}</span>
         </div>
-      </article>
-    </a>
+      </div>
+    </article>
+    <!-- </a> -->
   </div>
 </template>
 
@@ -30,19 +30,21 @@ export default {
 
 <style lang="scss" scoped>
 div {
-  a {
-    .work-title {
-      font-size: 2em;
-      color: #5bbee5;
+  .work-title {
+    font-size: 2em;
+    color: #5bbee5;
 
-      @media (max-width: 600px) {
-        font-size: 1.1em;
-      }
+    @media (max-width: 600px) {
+      font-size: 1.1em;
     }
+  }
+
+  article {
     &:hover {
       .work-title {
         color: #8fff;
       }
+      cursor: pointer;
     }
   }
 }
