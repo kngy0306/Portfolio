@@ -4,8 +4,8 @@
     <article class="box media has-background-grey-dark main-content">
       <div class="media-content">
         <div class="content">
-          <p class="work-title">{{ item.title }}</p>
-          <br />
+          <h1 class="work-title">{{ item.title }}</h1>
+          <!-- <br /> -->
           <p class="has-text-white">{{ item.content }}</p>
           <br />
           <span class="lang tag is-primary">{{ item.lang }}</span>
@@ -29,22 +29,28 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-div {
+article {
+  align-self: stretch;
+  width: 550px;
+  overflow: auto;
+
+  @media (max-width: 550px) {
+    width: 300px;
+  }
+
+  &:hover {
+    .work-title {
+      color: #8fff;
+    }
+    cursor: pointer;
+  }
+
   .work-title {
     font-size: 2em;
     color: #5bbee5;
 
     @media (max-width: 600px) {
       font-size: 1.1em;
-    }
-  }
-
-  article {
-    &:hover {
-      .work-title {
-        color: #8fff;
-      }
-      cursor: pointer;
     }
   }
 }
