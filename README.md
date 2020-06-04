@@ -1,19 +1,20 @@
 # portfolio
 
-![スクリーンショット (51)](https://user-images.githubusercontent.com/57553474/82720215-372afb00-9cec-11ea-97bf-eefad5c4d3c3.png)
+![スクリーンショット (58)](https://user-images.githubusercontent.com/57553474/83718656-794f2780-a670-11ea-9f77-8112ef1dcbfd.png)
 
-## 記載するもの
+## 使用言語等
 
-1. TopPage(Tilte)
-1. About(intro、image)
-1. Works
-1. Footer(SNS link)
+1. Vue.js
+1. SASS
+1. Bluma
 
-## 願望
+## この先実装したいこと
 
-1. Vue.js の機能を色々使いたい
-1. SCSS を活用したい
-1. 様々な js ライブラリを用いて華やかにしたい(wow.js、iType、glide...)
+1. Google Analytics
+1. Animation
+1. Vue.js の機能を色々使う
+1. SCSS を活用
+1. 様々な js ライブラリを用いて華やかに(wow.js、iType、glide...)
 
 ## Project setup
 
