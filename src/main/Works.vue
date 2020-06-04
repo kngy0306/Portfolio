@@ -14,35 +14,28 @@ import WorksTemp from "@/components/WorksTemp";
 export default {
   components: {
     Title,
-    WorksTemp
+    WorksTemp,
   },
   data() {
     return {
-      isActive: false,
       works: [
         {
           title: "ScrapingApp(◢)",
           content:
             "乃木坂46ブログの画像をスクレイピングし、画像のみをフォルダへ保存します。BeautifulSoupを使用しています。",
           lang: "Python",
-          version: "3.7.2"
+          version: "3.7.2",
         },
         {
           title: "Portfolio",
           content:
             "このポートフォリオです。Vue.js、SASS、Bluma等を使用しています。",
           lang: "Vue.js",
-          version: "4.3.1"
+          version: "4.3.1",
         },
-        {
-          title: "ｘｘｘ",
-          content: "ｘｘｘ",
-          lang: "ｘｘｘ",
-          version: "10.0.0.1"
-        }
-      ]
+      ],
     };
-  }
+  },
 };
 </script>
 
