@@ -2,8 +2,14 @@
   <div class="container is-fluid">
     <Title title=" " />
     <div class="sns">
-      <font-awesome-icon :icon="['fab', 'twitter-square']" class="icon cotainer" />
-      <font-awesome-icon :icon="['fab', 'github-square']" class="icon contaienr" />
+      <font-awesome-icon
+        :icon="['fab', 'twitter-square']"
+        class="icon cotainer"
+      />
+      <font-awesome-icon
+        :icon="['fab', 'github-square']"
+        class="icon contaienr"
+      />
     </div>
   </div>
 </template>
@@ -13,13 +19,13 @@ import Title from "@/components/Title";
 
 export default {
   components: {
-    Title
+    Title,
   },
   data() {
     return {
-      show: true
+      show: true,
     };
-  }
+  },
 };
 </script>
 
