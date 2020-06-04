@@ -21,11 +21,6 @@ export default {
   components: {
     Title,
   },
-  data() {
-    return {
-      show: true,
-    };
-  },
 };
 </script>
 

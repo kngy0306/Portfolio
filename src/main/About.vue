@@ -5,7 +5,9 @@
       <p class="title has-text-white">こな</p>
       <div class="about-text">
         <p>北海道に住んでいる大学4年です。</p>
-        <p>工学部で情報を学んでいます。現在は主にウェブの技術について学んでいます。</p>
+        <p>
+          工学部で情報を学んでいます。現在は主にウェブの技術について学んでいます。
+        </p>
       </div>
 
       <div class="columns is-mobile">
@@ -16,7 +18,11 @@
           <img class="image" src="../assets/img/winter-min.jpg" alt="sceen" />
         </div>
         <div class="column is-one-third-desktop">
-          <img class="image saroma" src="../assets/img/Saroma-min.jpg" alt="sceen" />
+          <img
+            class="image saroma"
+            src="../assets/img/Saroma-min.jpg"
+            alt="sceen"
+          />
         </div>
       </div>
     </div>
@@ -28,8 +34,8 @@ import Title from "@/components/Title";
 
 export default {
   components: {
-    Title
-  }
+    Title,
+  },
 };
 </script>
 
