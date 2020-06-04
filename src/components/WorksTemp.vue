@@ -1,11 +1,11 @@
 <template>
   <div>
-    <!-- <a :href="item.link"> -->
     <article class="box media has-background-grey-dark main-content">
       <div class="media-content">
         <div class="content">
-          <h1 class="work-title">{{ item.title }}</h1>
-          <!-- <br /> -->
+          <a :href="item.link">
+            <h1 class="work-title">{{ item.title }}</h1>
+          </a>
           <p class="has-text-white">{{ item.content }}</p>
           <br />
           <span class="lang tag is-primary">{{ item.lang }}</span>
@@ -13,7 +13,6 @@
         </div>
       </div>
     </article>
-    <!-- </a> -->
   </div>
 </template>
 
@@ -38,11 +37,12 @@ article {
     width: 300px;
   }
 
-  &:hover {
-    .work-title {
-      color: #8fff;
+  a {
+    &:hover {
+      .work-title {
+        color: #8fff;
+      }
     }
-    cursor: pointer;
   }
 
   .work-title {

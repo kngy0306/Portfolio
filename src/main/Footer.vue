@@ -2,14 +2,12 @@
   <div class="container is-fluid">
     <Title title=" " />
     <div class="sns">
-      <font-awesome-icon
-        :icon="['fab', 'twitter-square']"
-        class="icon cotainer"
-      />
-      <font-awesome-icon
-        :icon="['fab', 'github-square']"
-        class="icon contaienr"
-      />
+      <a href="https://twitter.com/YoKaU2">
+        <font-awesome-icon :icon="['fab', 'twitter-square']" class="icon cotainer" />
+      </a>
+      <a href="https://github.com/kngy0306/portfolio">
+        <font-awesome-icon :icon="['fab', 'github-square']" class="icon contaienr" />
+      </a>
     </div>
   </div>
 </template>
@@ -19,8 +17,8 @@ import Title from "@/components/Title";
 
 export default {
   components: {
-    Title,
-  },
+    Title
+  }
 };
 </script>
 
@@ -40,6 +38,12 @@ export default {
     &:hover {
       cursor: pointer;
       opacity: 0.8;
+    }
+  }
+
+  a {
+    &:visited {
+      color: #fff;
     }
   }
 }
