@@ -28,6 +28,14 @@ export default {
 
   .sns {
     padding-bottom: 50px;
+
+    a {
+      color: #fff;
+
+      &:visited {
+        color: #fff;
+      }
+    }
   }
 
   .icon {
@@ -38,12 +46,6 @@ export default {
     &:hover {
       cursor: pointer;
       opacity: 0.8;
-    }
-  }
-
-  a {
-    &:visited {
-      color: #fff;
     }
   }
 }
