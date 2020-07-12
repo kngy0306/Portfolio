@@ -18,8 +18,13 @@ export default {
     Header,
     About,
     Works,
-    Footer,
+    Footer
   },
+  methods: {
+    login() {
+      this.$gtag.event("login", { method: "Google" });
+    }
+  }
 };
 </script>
 
