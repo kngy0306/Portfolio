@@ -1,6 +1,6 @@
 # portfolio
 
-[https://kngy0306.github.io/portfolio/]
+https://kngy0306.github.io/portfolio/
 
 ![スクリーンショット (58)](https://user-images.githubusercontent.com/57553474/83718656-794f2780-a670-11ea-9f77-8112ef1dcbfd.png)
 
