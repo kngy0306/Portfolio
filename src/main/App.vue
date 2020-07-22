@@ -1,6 +1,8 @@
 <template>
   <div class="has-background-black-bis">
-    <Header />
+    <transition appear>
+      <Header />
+    </transition>
     <About />
     <Works />
     <Footer />
@@ -39,5 +41,17 @@ body {
   box-sizing: border-box;
   color: #fff;
   font-family: "Noto Serif JP", serif;
+}
+
+.v-enter-active {
+  transition: opacity 3s;
+}
+
+.v-enter {
+  opacity: 0;
+}
+
+.v-enter-to {
+  opacity: 1;
 }
 </style>
