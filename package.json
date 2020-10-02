@@ -14,8 +14,7 @@
     "@fortawesome/vue-fontawesome": "^0.1.9",
     "core-js": "^3.6.4",
     "vue": "^2.6.11",
-    "vue-gtag": "^1.7.0",
-    "vuetify": "^2.2.32"
+    "vue-gtag": "^1.7.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.3.0",
@@ -26,6 +25,7 @@
     "eslint-plugin-vue": "^6.2.2",
     "node-sass": "^4.14.1",
     "sass-loader": "^8.0.2",
+    "selfsigned": "^1.10.8",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
