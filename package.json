@@ -8,25 +8,25 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.28",
-    "@fortawesome/free-brands-svg-icons": "^5.13.0",
-    "@fortawesome/free-solid-svg-icons": "^5.13.0",
-    "@fortawesome/vue-fontawesome": "^0.1.9",
-    "core-js": "^3.6.4",
-    "vue": "^2.6.11",
-    "vue-gtag": "^1.7.0"
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-brands-svg-icons": "^5.15.3",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/vue-fontawesome": "^2.0.2",
+    "core-js": "^3.15.2",
+    "vue": "^2.6.14",
+    "vue-gtag": "^1.16.1"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.3.0",
-    "@vue/cli-plugin-eslint": "~4.3.0",
-    "@vue/cli-service": "~4.3.0",
+    "@vue/cli-plugin-babel": "~4.5.13",
+    "@vue/cli-plugin-eslint": "^3.1.1",
+    "@vue/cli-service": "^3.12.1",
     "babel-eslint": "^10.1.0",
-    "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^6.2.2",
-    "node-sass": "^4.14.1",
-    "sass-loader": "^8.0.2",
-    "selfsigned": "^1.10.8",
-    "vue-template-compiler": "^2.6.11"
+    "eslint": "^7.31.0",
+    "eslint-plugin-vue": "^7.14.0",
+    "node-sass": "^6.0.1",
+    "sass-loader": "^12.1.0",
+    "selfsigned": "^1.10.11",
+    "vue-template-compiler": "^2.6.14"
   },
   "eslintConfig": {
     "root": true,
